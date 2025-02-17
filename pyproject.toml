@@ -1,0 +1,25 @@
+[project]
+name = "jaws-md"
+version = "0.1.0"
+description = "Crawls and scrapes a site to create markdown files from HTML."
+authors = [
+    {name = "Daethyra",email = "109057945+Daethyra@users.noreply.github.com"}
+]
+license = {text = "{file = \"LICENSE\"}"}
+keywords = ["scrapy", "markdownify", "markdown", "crawler", "scraper"]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "markdownify (>=0.14.1,<0.15.0)",
+    "scrapy (>=2.12.0,<3.0.0)"
+]
+
+[tool.poetry]
+
+[tool.poetry.group.dev.dependencies]
+black = "^25.1.0"
+flake8 = "^7.1.2"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
