@@ -19,7 +19,6 @@ Crawls and scrapes a site to create markdown files from HTML.
 
 ### Parts & Pieces
 
-The following must be present for the project to be considered testable:
 - A Scrapy spider
 - HTML Markdownification
 
@@ -31,34 +30,16 @@ The following must be present for the project to be considered testable:
 
 ### Installation
 
-1. Clone the repository
-```
-git clone https://github.com/Daethyra/JAWS-MD.git
-```
+1. Clone the repository: `git clone https://github.com/Daethyra/JAWS-MD.git`
 
-2. Create a virtual environment
-```
-python3 -m venv venv
-```
+2. Create a virtual environment: `python3 -m venv venv`
 
 3. Activate the virtual environment
 
-In bash:
-```bash
-source venv/bin/activate
-```
+    - In Bash: `source venv/bin/activate`
 
-In powershell:
-```powershell
-.\venv\Scripts\Activate.ps1
-```
+    - In Powershell: `.\venv\Scripts\Activate.ps1`
 
-4. Install dependencies
-```
-pip install -rU requirements.txt
-```
+4. Install dependencies: `pip install -r requirements.txt`
 
-5. Run the program
-```shell
-scrapy crawl <spider_name>
-```
+5. Run the program: `scrapy crawl <spider_name>`
